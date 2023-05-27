@@ -6,7 +6,7 @@ This project demonstrates the process of transferring Google Analytics data to S
 
 Before running the code, ensure that you have the following prerequisites set up:
 
-1. **Google Analytics API Credentials**: Obtain the credentials file (`service-account-key.json`) for accessing the Google Analytics Data API. You can follow the [Google Analytics Data API documentation](https://developers.google.com/analytics/devguides/reporting/data/v1/quickstart-client-libraries) to set up the credentials.
+1. **Google Analytics API Credentials**: Obtain the credentials file (`service-account-key.json`) for accessing the Google Analytics Data API. You can follow the [Google Analytics Data API documentation](https://developers.google.com/analytics/devguides/reporting/data/v1/quickstart-client-libraries) to set up the credentials. Opening Link directly may show "Service Unavailable". Hard Refresh(Ctrl + Refresh Button) the page or open link in Incognito Mode.
 
 2. **Snowflake Credentials**: Prepare a JSON file (`snowflake.json`) containing the Snowflake credentials required to establish a connection. JSON file should present in same directory as main python file. The JSON file should include the following fields:
    - `user`: The Snowflake username
@@ -38,7 +38,7 @@ Before running the code, ensure that you have the following prerequisites set up
 
 ## Usage
 
-1. Modify the `propertyId`, `dims` and `metrics` lists in the `main.py` file to specify the property ID and desired dimensions and metrics for the Google Analytics report.
+1. Modify the `propertyId`, `dims` and `metrics` lists in the `main.py` file to specify the property ID and desired dimensions and metrics for the Google Analytics report. Entire list of all possible metrics and dimensions can be found [here](https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema). Opening Link directly may show "Service Unavailable". Hard Refresh(Ctrl + Refresh Button) the page or open link in Incognito Mode.
 
 2. Update the `start_date` and `end_date` variables in the `main.py` file to set the date range for the report.
 
