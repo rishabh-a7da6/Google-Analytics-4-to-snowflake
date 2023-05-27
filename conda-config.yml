@@ -1,0 +1,13 @@
+name: ga4-env
+channels: 
+  - default
+
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - pandas
+    - notebook
+    - google-analytics-data
+    - snowflake-connector-python
+    - snowflake-connector-python[pandas]
