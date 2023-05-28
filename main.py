@@ -21,6 +21,8 @@ propertyId = ''
 # Metrics and Dimensions
 dims = ['country', 'screenResolution']
 metrics = ['activeUsers']
+start_date = "2023-05-07"
+end_date = "2023-05-10"
 
 def query_report(dimensions:list, 
                  metrics:list, 
@@ -90,8 +92,8 @@ def query_report(dimensions:list,
 response = query_report(
     dims,
     metrics,
-    "2023-05-07",
-    "2023-05-10"
+    start_date,
+    end_date
 )
 
 # Converting data to pandas dataframe
