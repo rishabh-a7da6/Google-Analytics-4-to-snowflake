@@ -9,5 +9,4 @@ dependencies:
     - pandas
     - notebook
     - google-analytics-data
-    - snowflake-connector-python
-    - snowflake-connector-python[pandas]
+    - snowflake-snowpark-python

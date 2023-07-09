@@ -1,5 +1,4 @@
 python=3.8
 pandas
 google-analytics-data
-snowflake-connector-python
-snowflake-connector-python[pandas]
+snowflake-snowpark-python

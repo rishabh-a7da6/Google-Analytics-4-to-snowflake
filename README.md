@@ -1,6 +1,6 @@
 # Google Analytics(GA4) to Snowflake Data Warehouse
 
-This project demonstrates the process of transferring Google Analytics data to Snowflake using the Google Analytics Data API(GA4) and Snowflake Connector for Python.
+This project demonstrates the process of transferring Google Analytics data to Snowflake using the Google Analytics Data API(GA4) and Snowflake Snowpark in Python.
 
 ## Prerequisites
 
